@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.frameworkdevelopment.Listeners"></listener>
+<listener class-name="resources.ExtentReporterNG"></listener>
+
+</listeners>
+  <test thread-count="5" name="Test Ng assertion for Text">
+    <classes>
+      <class name="com.frameworkdevelopment.TestNgAssertions"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Navigation bar validation">
+    <classes>
+      <class name="com.frameworkdevelopment.LandingPageAssertion"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Login Page validation">
+    <classes>
+     <class name="com.frameworkdevelopment.HomePage"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

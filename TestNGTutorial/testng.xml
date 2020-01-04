@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite 1" parallel = "tests" thread-count ="2">
+
+<listeners>
+<listener class-name = "TestNGPractise.Listeners"/>
+</listeners>
+
+
+
+<parameter name="URL" value="Google.com"/> <!-- This is a suite level parameters -->
+  <test thread-count="5" name="Test">
+  <parameter name="URL1" value="YAHOO.com"/> <!-- This is a test level parameters -->
+    <classes>
+      <class name="TestNGPractise.testNg2">
+      <methods>
+      <include name="demo3"/>
+      </methods>
+      </class>
+      
+      <class name="TestNGPractise.testNg"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="Suite 2">
+    <classes>
+    
+      <class name="TestNGPractise.testNg3">
+      <methods>
+      <include name="demo.*"/> <!-- Excluding the test cases starting demo in testNg3 class -->
+      </methods>
+      
+      </class>
+      
+
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
+
+  

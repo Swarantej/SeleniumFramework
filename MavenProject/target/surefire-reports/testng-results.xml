@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="93" started-at="2019-12-21T12:23:44 IST" finished-at="2019-12-21T12:23:44 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="93" started-at="2019-12-21T12:23:44 IST" finished-at="2019-12-21T12:23:44 IST">
+      <class name="MavenPractise.AppiumTest">
+        <test-method status="PASS" signature="appiumTest()[pri:0, instance:MavenPractise.AppiumTest@4034c28c]" name="appiumTest" duration-ms="16" started-at="2019-12-21T12:23:44 IST" finished-at="2019-12-21T12:23:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appiumTest -->
+      </class> <!-- MavenPractise.AppiumTest -->
+      <class name="MavenPractise.RestAPITest">
+        <test-method status="PASS" signature="restAPITest()[pri:0, instance:MavenPractise.RestAPITest@e50a6f6]" name="restAPITest" duration-ms="0" started-at="2019-12-21T12:23:44 IST" finished-at="2019-12-21T12:23:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restAPITest -->
+      </class> <!-- MavenPractise.RestAPITest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

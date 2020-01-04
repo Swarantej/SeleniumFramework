@@ -1,0 +1,38 @@
+package stepdefinitions;
+
+import io.cucumber.java.en.*;
+
+import cucumber.api.PendingException;
+
+import io.cucumber.java.en.When;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.And;
+import org.junit.runner.RunWith;
+import io.cucumber.java.en.Given;
+import io.cucumber.junit.Cucumber;
+
+
+@RunWith(Cucumber.class)
+public class StepdDefinitions {
+
+    @Given("^when the user the navigates to the URL$")
+    public void when_the_user_the_navigates_to_the_url() throws Throwable {
+        
+    }
+
+    @When("^the URL is loaded successully$")
+    public void the_url_is_loaded_successully() throws Throwable {
+        
+    }
+
+    @Then("^validate the header in the page$")
+    public void validate_the_header_in_the_page() throws Throwable {
+       
+    }
+
+    @And("^validate the tiltle of page$")
+    public void validate_the_tiltle_of_page() throws Throwable {
+      
+    }
+
+}

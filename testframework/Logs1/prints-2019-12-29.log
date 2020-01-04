@@ -1,0 +1,7 @@
+07:59:38.529 [main] INFO  com.frameworkdevelopment.HomePage - Invoked the browser
+07:59:54.476 [main] INFO  com.frameworkdevelopment.HomePage - Navigated to the URL
+08:00:05.600 [main] INFO  com.frameworkdevelopment.HomePage - Clicked on Login Link
+08:00:06.739 [main] INFO  com.frameworkdevelopment.HomePage - Entered Username
+08:00:06.960 [main] INFO  com.frameworkdevelopment.HomePage - Entered Password
+08:00:15.498 [main] INFO  com.frameworkdevelopment.HomePage - Navigated to the URL
+08:00:21.109 [main] INFO  com.frameworkdevelopment.HomePage - Clicked on Login Link

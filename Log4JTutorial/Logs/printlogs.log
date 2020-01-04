@@ -1,0 +1,6 @@
+22:12:11.916 [main] FATAL Log4J.Log4JTest1 - I'm Fatal
+22:12:42.639 [main] DEBUG Log4J.Log4JTest1 - I'm Debugging
+22:12:42.639 [main] DEBUG Log4J.Log4JTest1 - Hello
+22:12:42.639 [main] INFO  Log4J.Log4JTest1 - I'm Info
+22:12:42.639 [main] ERROR Log4J.Log4JTest1 - I'm error
+22:12:42.639 [main] FATAL Log4J.Log4JTest1 - I'm Fatal

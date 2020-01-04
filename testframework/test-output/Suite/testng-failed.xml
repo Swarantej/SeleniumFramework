@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.frameworkdevelopment.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test Ng assertion for Text(failed)">
+    <classes>
+      <class name="com.frameworkdevelopment.TestNgAssertions">
+        <methods>
+          <include name="validateText"/>
+          <include name="initializeBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.frameworkdevelopment.TestNgAssertions -->
+    </classes>
+  </test> <!-- Test Ng assertion for Text(failed) -->
+  <test thread-count="5" name="Navigation bar validation(failed)">
+    <classes>
+      <class name="com.frameworkdevelopment.LandingPageAssertion">
+        <methods>
+          <include name="tearDown"/>
+          <include name="basePageNavigation"/>
+          <include name="initializeBrowser"/>
+        </methods>
+      </class> <!-- com.frameworkdevelopment.LandingPageAssertion -->
+    </classes>
+  </test> <!-- Navigation bar validation(failed) -->
+  <test thread-count="5" name="Login Page validation(failed)">
+    <classes>
+      <class name="com.frameworkdevelopment.HomePage">
+        <methods>
+          <include name="basePageNavigation" invocation-numbers="0 1"/>
+          <include name="tearDown"/>
+          <include name="initializeBrowser"/>
+        </methods>
+      </class> <!-- com.frameworkdevelopment.HomePage -->
+    </classes>
+  </test> <!-- Login Page validation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

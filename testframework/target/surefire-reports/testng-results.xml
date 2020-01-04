@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="119381" started-at="2019-12-29T07:58:33 IST" finished-at="2019-12-29T08:00:33 IST">
+    <groups>
+    </groups>
+    <test name="Test Ng assertion for Text" duration-ms="30704" started-at="2019-12-29T07:58:33 IST" finished-at="2019-12-29T07:59:04 IST">
+      <class name="com.frameworkdevelopment.TestNgAssertions">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.frameworkdevelopment.TestNgAssertions@22ff4249]" name="initializeBrowser" is-config="true" duration-ms="26147" started-at="2019-12-29T07:58:33 IST" finished-at="2019-12-29T07:59:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="validateLandingPageText()[pri:0, instance:com.frameworkdevelopment.TestNgAssertions@22ff4249]" name="validateLandingPageText" duration-ms="437" started-at="2019-12-29T07:59:00 IST" finished-at="2019-12-29T07:59:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLandingPageText -->
+        <test-method status="PASS" signature="validateText()[pri:0, instance:com.frameworkdevelopment.TestNgAssertions@22ff4249]" name="validateText" duration-ms="2230" started-at="2019-12-29T07:59:00 IST" finished-at="2019-12-29T07:59:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateText -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.frameworkdevelopment.TestNgAssertions@22ff4249]" name="tearDown" is-config="true" duration-ms="1405" started-at="2019-12-29T07:59:03 IST" finished-at="2019-12-29T07:59:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.frameworkdevelopment.TestNgAssertions -->
+    </test> <!-- Test Ng assertion for Text -->
+    <test name="Navigation bar validation" duration-ms="21410" started-at="2019-12-29T07:59:06 IST" finished-at="2019-12-29T07:59:27 IST">
+      <class name="com.frameworkdevelopment.LandingPageAssertion">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.frameworkdevelopment.LandingPageAssertion@1e800aaa]" name="initializeBrowser" is-config="true" duration-ms="20793" started-at="2019-12-29T07:59:06 IST" finished-at="2019-12-29T07:59:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="landingPageValidattion()[pri:0, instance:com.frameworkdevelopment.LandingPageAssertion@1e800aaa]" name="landingPageValidattion" duration-ms="268" started-at="2019-12-29T07:59:26 IST" finished-at="2019-12-29T07:59:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageValidattion -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.frameworkdevelopment.LandingPageAssertion@1e800aaa]" name="tearDown" is-config="true" duration-ms="346" started-at="2019-12-29T07:59:27 IST" finished-at="2019-12-29T07:59:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.frameworkdevelopment.LandingPageAssertion -->
+    </test> <!-- Navigation bar validation -->
+    <test name="Login Page validation" duration-ms="65251" started-at="2019-12-29T07:59:28 IST" finished-at="2019-12-29T08:00:33 IST">
+      <class name="com.frameworkdevelopment.HomePage">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.frameworkdevelopment.HomePage@4116aac9]" name="initializeBrowser" is-config="true" duration-ms="10600" started-at="2019-12-29T07:59:28 IST" finished-at="2019-12-29T07:59:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.frameworkdevelopment.HomePage@4116aac9]" name="basePageNavigation" duration-ms="33219" started-at="2019-12-29T07:59:38 IST" data-provider="getData" finished-at="2019-12-29T08:00:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[text@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.frameworkdevelopment.HomePage@4116aac9]" name="basePageNavigation" duration-ms="16788" started-at="2019-12-29T08:00:11 IST" data-provider="getData" finished-at="2019-12-29T08:00:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[text@Testing.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8968]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.frameworkdevelopment.HomePage@4116aac9]" name="tearDown" is-config="true" duration-ms="4619" started-at="2019-12-29T08:00:28 IST" finished-at="2019-12-29T08:00:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.frameworkdevelopment.HomePage -->
+    </test> <!-- Login Page validation -->
+  </suite> <!-- Suite -->
+</testng-results>

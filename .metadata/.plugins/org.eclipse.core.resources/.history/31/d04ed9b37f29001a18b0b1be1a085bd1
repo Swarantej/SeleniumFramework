@@ -1,0 +1,12 @@
+Feature: Login page validation
+
+
+Scenario: to validate the login header
+Given when the user the navigates to the URL
+When the URL is loaded successully
+Then validate the header in the page
+And validate the tiltle of page
+
+Given test
+When validate
+Then pass

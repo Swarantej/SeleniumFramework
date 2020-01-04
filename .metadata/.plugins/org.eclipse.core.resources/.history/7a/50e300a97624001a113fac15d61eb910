@@ -1,0 +1,10 @@
+package Log4jPractise;
+
+public class Log4jTest2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

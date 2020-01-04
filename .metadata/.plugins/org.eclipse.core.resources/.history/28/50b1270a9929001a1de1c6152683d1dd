@@ -1,0 +1,42 @@
+package stepdefinitions;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import io.cucumber.junit.Cucumber;
+
+
+
+@RunWith(Cucumber.class)
+public class StepDefinitions extends Base{
+	
+
+
+
+@Given("when the user navigates to {string}")
+public void when_the_user_navigates_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+}
+
+@When("the webpage is opened successfully")
+public void the_webpage_is_opened_successfully() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+}
+
+@Then("the header displayed is correct")
+public void the_header_displayed_is_correct() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+}
+
+
+
+
+
+
+}

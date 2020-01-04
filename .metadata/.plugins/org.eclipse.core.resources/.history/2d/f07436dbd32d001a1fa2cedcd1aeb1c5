@@ -1,0 +1,21 @@
+import org.openqa.selenium.MutableCapabilities;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class SauceLabsTest {
+
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		MutableCapabilities sauceOptions = new MutableCapabilities();
+		sauceOptions.setCapability("screenResolution", "1024x768");
+		ChromeOptions browserOptions = new ChromeOptions();
+		browserOptions.setExperimentalOption("w3c", true);
+		browserOptions.setCapability("platformName", "Windows 10");
+		browserOptions.setCapability("browserVersion", "50.0");
+		browserOptions.setCapability("sauce:options", sauceOptions);
+
+	}
+
+}

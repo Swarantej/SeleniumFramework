@@ -1,0 +1,24 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FindLinksInWebPage {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\Swaran\\\\Selenium\\\\SeleniumCoding\\\\drivers\\\\chromedriver.exe");
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("http://www.qaclickacademy.com/");
+		//driver.findElementsByTagName("a").size();
+		
+		//To print all the links in the page
+		System.out.println(driver.findElementsByTagName("a").size());
+		
+		//To print the links in the footer section
+		//for this we need to limit the scope of the driver to the footer section alone
+		
+		WebElement footerSection = driver.findElementByCssSelector("#prefooter");
+		System.out.println(footerSection.findElements(By.tagName("a")).size());
+		}
+
+}

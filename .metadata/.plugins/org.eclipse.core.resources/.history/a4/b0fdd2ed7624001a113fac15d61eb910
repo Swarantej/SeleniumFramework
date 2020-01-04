@@ -1,0 +1,14 @@
+package Log4jPractise;
+import org.apache.logging.log4j.*;
+
+
+public class Log4jTest2 {
+	
+	private static Logger log = LogManager.getLogger(Log4jTest2.class.getName());
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

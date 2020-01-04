@@ -1,0 +1,10 @@
+package windowspopups;
+
+public class AutoITFileUpload {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

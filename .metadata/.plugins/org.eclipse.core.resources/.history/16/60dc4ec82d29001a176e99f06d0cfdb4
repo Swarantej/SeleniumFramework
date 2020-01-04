@@ -1,0 +1,16 @@
+package javapractise;
+
+public class Interview_Collections {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/**
+		 * Print the unique number in the list of array
+		 * Print the number with the repated times
+		 */
+
+		int a[] = {1,4,6,7,4,3,9,8,9,7.3,7,7}
+	}
+
+}

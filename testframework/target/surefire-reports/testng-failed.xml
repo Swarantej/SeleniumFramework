@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.frameworkdevelopment.Listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test Ng assertion for Text(failed)">
+    <classes>
+      <class name="com.frameworkdevelopment.TestNgAssertions">
+        <methods>
+          <include name="validateText"/>
+          <include name="initializeBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.frameworkdevelopment.TestNgAssertions -->
+    </classes>
+  </test> <!-- Test Ng assertion for Text(failed) -->
+</suite> <!-- Failed suite [Suite] -->

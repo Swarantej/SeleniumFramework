@@ -1,0 +1,7 @@
+Feature: Login Validations
+
+Scenario: Validate the login page
+
+Given when the user navigates to "QA CLick Acadamey"
+When the webpage is opened successfully
+Then the header displayed is correct

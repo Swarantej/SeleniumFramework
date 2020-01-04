@@ -1,0 +1,23 @@
+package windowspopups;
+
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class AutoITFileUpload {
+
+	public static void main(String[] args) throws InterruptedException, IOException {
+		// TODO Auto-generated method stub
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Swaran\\Selenium\\WindowsPopup\\drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://smallpdf.com/word-to-pdf");
+		driver.findElement(By.xpath("//div[text()='Choose file']")).click();
+		Thread.sleep(2000);
+		Runtime.getRuntime().exec("C:\\Users\\Swaran\\Selenium\\autoItFileUpload.exe");
+
+	}
+
+}

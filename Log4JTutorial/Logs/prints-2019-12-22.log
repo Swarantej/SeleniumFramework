@@ -1,0 +1,6 @@
+logs file22:09:45.717 [main] DEBUG Log4JPackage2.Log4JTest2 - I'm Debugging from Package 2 , Test casee 2
+22:09:45.717 [main] DEBUG Log4JPackage2.Log4JTest2 - Hello from Package 2 , Test casee 2
+22:09:45.717 [main] INFO  Log4JPackage2.Log4JTest2 - I'm Info from Package 2 , Test casee 2
+22:09:45.717 [main] ERROR Log4JPackage2.Log4JTest2 - I'm error from Package 2 , Test casee 2
+22:09:45.717 [main] FATAL Log4JPackage2.Log4JTest2 - I'm Fatal from Package 2 , Test casee 2
+22:12:11.916 [main] ERROR Log4J.Log4JTest1 - I'm error
